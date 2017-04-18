@@ -1,0 +1,9 @@
+1)假定 redis 安装在 “D：\redis” 目录之下。
+2)打开一个 cmd 窗口，切换到 d:\redis 目录。
+3)运行 redis-server.exe redis.windows.conf。
+
+如果在windows服务器中，redis-server启动失败，则尝试如下操作：
+1)在 CMD 命令行中，执行 redis-cli.exe。
+2)在 cli 中执行 shutdown 命令。
+3)在 cli 中执行 exit 命令。
+4)启动redis-server，即在新 CMD 窗口中，执行 redis-server.exe redis.windows.conf。
