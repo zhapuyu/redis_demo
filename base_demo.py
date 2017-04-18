@@ -9,4 +9,4 @@ print('ping: {ping}'.format(ping=conn.ping()))
 info = conn.info()
 print(type(info))
 for info_key in info:
-    print("key is {key}, value is {value}".format(key=info_key, value=info[info_key]))
+    print("key is: {key}, value is: {value}".format(key=info_key, value=info[info_key]))
