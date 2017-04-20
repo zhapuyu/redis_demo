@@ -7,4 +7,3 @@ conn.set('foo', 'bar')
 ret = conn.get('foo')
 print(ret)
 print(type(ret))
-
